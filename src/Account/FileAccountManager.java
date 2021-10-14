@@ -1,12 +1,9 @@
-package Account.AccountManager;
+package Account;
 
-import Account.Account;
-import Account.FileService;
 import Exceptions.AccountAlreadyExistsException;
 import Exceptions.AccountBlockedException;
 import Exceptions.WrongCredentialsException;
 
-import java.nio.channels.MembershipKey;
 import java.util.List;
 
 public class FileAccountManager implements AccountManager {

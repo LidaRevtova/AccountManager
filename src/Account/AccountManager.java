@@ -1,4 +1,4 @@
-package Account.AccountManager;
+package Account;
 
 import Account.Account;
 import Exceptions.AccountAlreadyExistsException;

@@ -74,7 +74,7 @@ public class Account implements CSVConvertible {
     }
 
     public void printInfo() {
-        System.out.println("ФИО: " + FIO + " ДР: "+birthday + " email: " + email + " Пароль: " + password + " Залокирован: " + blocked);
+        System.out.println("ФИО: " + FIO + " ДР: "+birthday + " email: " + email + " Пароль: " + password + " Заблокирован: " + blocked);
     }
 
     public void block() {

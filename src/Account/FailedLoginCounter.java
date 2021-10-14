@@ -26,6 +26,7 @@ public class FailedLoginCounter {
     public void counterAdd(String email) {
         if (counter.containsKey(email)) {
             counter.replace(email, counter.get(email) + 1);
+
         } else {
             counter.put(email, 1);
         }
