@@ -27,7 +27,6 @@ public class FileService {
 
     public List<Account> readFile() {
         List<Account> accounts = new ArrayList<>();
-        //try в скобочках инициализируются объекты, при окончании работы с которыми нужно дернуть close
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             String line;
             while ((line = reader.readLine()) != null) {
