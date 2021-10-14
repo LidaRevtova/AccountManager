@@ -17,7 +17,7 @@ public class Account implements CSVConvertible {
         this.birthday = birthday;
         this.email = email;
         this.password = password;
-        this.blocked = Boolean.getBoolean(blocked);
+        this.blocked = Boolean.parseBoolean(blocked);
     }
 
     public Account(String FIO, String birthday, String email, String password) {
